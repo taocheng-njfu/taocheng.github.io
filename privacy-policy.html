@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dailything Privacy Policy - Offline-first diary app">
+    <title>Privacy Policy - Dailything</title>
+    <style>
+        /* Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        /* Header Styles */
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #eaeaea;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            font-size: 2.2em;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #7f8c8d;
+            font-size: 1.1em;
+            margin-bottom: 15px;
+        }
+        
+        .last-updated {
+            background-color: #e8f4fc;
+            padding: 10px 15px;
+            border-radius: 8px;
+            display: inline-block;
+            font-weight: 500;
+            color: #2980b9;
+            margin-top: 10px;
+        }
+        
+        /* Main Content Styles */
+        main {
+            background-color: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.08);
+        }
+        
+        section {
+            margin-bottom: 35px;
+        }
+        
+        h2 {
+            color: #2c3e50;
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #ecf0f1;
+        }
+        
+        h3 {
+            color: #34495e;
+            font-size: 1.2em;
+            margin: 20px 0 10px 0;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        
+        ul, ol {
+            margin-left: 25px;
+            margin-bottom: 20px;
+        }
+        
+        li {
+            margin-bottom: 10px;
+            padding-left: 5px;
+        }
+        
+        /* Highlighted Text */
+        .highlight {
+            background-color: #fffde7;
+            padding: 12px 15px;
+            border-left: 4px solid #f1c40f;
+            margin: 20px 0;
+            border-radius: 0 4px 4px 0;
+        }
+        
+        /* Table Styles */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #dee2e6;
+        }
+        
+        th {
+            background-color: #e9ecef;
+            font-weight: 600;
+            color: #495057;
+        }
+        
+        /* Contact Info Styles */
+        .contact-info {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        
+        .email {
+            color: #2980b9;
+            font-weight: 500;
+            text-decoration: none;
+        }
+        
+        .email:hover {
+            text-decoration: underline;
+        }
+        
+        /* Footer Styles */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eaeaea;
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            body {
+                padding: 15px;
+            }
+            
+            main {
+                padding: 20px;
+            }
+            
+            h1 {
+                font-size: 1.8em;
+            }
+            
+            h2 {
+                font-size: 1.3em;
+            }
+            
+            table {
+                font-size: 0.9em;
+            }
+        }
+        
+        /* Print Styles */
+        @media print {
+            body {
+                background-color: white;
+                padding: 0;
+            }
+            
+            main {
+                box-shadow: none;
+                padding: 0;
+            }
+        }
+        
+        /* Navigation Button (Back to Top) */
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background-color: #2980b9;
+            color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            font-size: 24px;
+            box-shadow: 0 2px 10px rgba(41, 128, 185, 0.3);
+            opacity: 0.8;
+            transition: opacity 0.3s;
+        }
+        
+        .back-to-top:hover {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Privacy Policy</h1>
+        <p class="subtitle">Dailything - Offline-first Diary App</p>
+        <div class="last-updated">
+            Last Updated: February 1, 2026
+        </div>
+    </header>
+    
+    <main>
+        <section id="introduction">
+            <p>This Privacy Policy applies to the Dailything mobile application ("the App") developed by I.</p>
+            <p>Dailything is an offline-first personal diary application that allows you to record diary entries with location context. This policy is intended to inform you about our practices regarding the handling of your information.</p>
+        </section>
+        
+        <section id="information-usage">
+            <h2>1. Information We Access and How We Use It</h2>
+            
+            <div class="highlight">
+                <p><strong>Core Principle:</strong> All your data is stored locally on your device by default and is not transmitted to any servers unless you explicitly choose to export it.</p>
+            </div>
+            
+            <h3>A. Location Data (Optional)</h3>
+            <ul>
+                <li><strong>What we access:</strong> When you grant permission, the App can access your device's geographical location.</li>
+                <li><strong>How we use it:</strong> Location data is used <strong>exclusively</strong> to tag your diary entries with the place where they were written. This feature is entirely optional - you can use the App without granting location permission.</li>
+                <li><strong>How it's stored:</strong> Location coordinates are saved <strong>locally on your device</strong> as part of your diary entry. They are <strong>never transmitted</strong> to any server or external service.</li>
+                <li><strong>Your control:</strong> You can enable or disable location access at any time through your device's Settings. You can also manually remove location tags from individual diary entries within the App.</li>
+            </ul>
+            
+            <h3>B. Diary Content</h3>
+            <ul>
+                <li><strong>What we access:</strong> Text, photos, and any media you create within the App.</li>
+                <li><strong>How it's stored:</strong> All content is stored <strong>exclusively on your device</strong>. It is never automatically transmitted or synced to any cloud service.</li>
+                <li><strong>Local processing:</strong> Any processing of your content (such as attaching location data or organizing entries) happens <strong>entirely on your device</strong>.</li>
+            </ul>
+        </section>
+        
+        <section id="data-collection">
+            <h2>2. Data Collection and Transmission</h2>
+            
+            <h3>A. What We Do NOT Collect</h3>
+            <p>The App does <strong>not</strong> collect, transmit, or store:</p>
+            <ul>
+                <li>Your diary content on any external server</li>
+                <li>Your personal identifiers (email, name, etc.)</li>
+                <li>Device analytics or usage statistics</li>
+                <li>IP addresses or unique device identifiers</li>
+                <li>Any data for advertising or marketing purposes</li>
+            </ul>
+            
+            <h3>B. Local-Only Storage</h3>
+            <p>All your data remains on your device unless you <strong>explicitly choose</strong> to:</p>
+            <ol>
+                <li>Export entries using your device's share functions</li>
+                <li>Create manual backups through your device's file system</li>
+                <li>Use third-party cloud services (like iCloud or Google Drive) <strong>that you manually configure</strong></li>
+            </ol>
+        </section>
+        
+        <section id="third-party">
+            <h2>3. No Third-Party Sharing</h2>
+            <p>Since your data never leaves your device without your explicit action, we do <strong>not</strong> share any information with third parties. Any data you choose to export is handled by your device's operating system and subject to the privacy policies of the services you choose to use.</p>
+        </section>
+        
+        <section id="permissions">
+            <h2>4. Permissions Transparency</h2>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Permission</th>
+                        <th>Purpose</th>
+                        <th>Optional?</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Location</strong></td>
+                        <td>To add geographical context to your diary entries</td>
+                        <td>Yes, you can decline this permission</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Photo Library</strong> (if applicable)</td>
+                        <td>To allow you to attach photos to diary entries</td>
+                        <td>Yes, you can decline this permission</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+        <section id="user-rights">
+            <h2>5. Your Rights and Control</h2>
+            <p>You have complete control over your data:</p>
+            <ul>
+                <li><strong>Delete data:</strong> Uninstall the App to remove all local data</li>
+                <li><strong>Manage permissions:</strong> Enable/disable location access via device Settings</li>
+                <li><strong>Edit entries:</strong> Remove location tags from any diary entry</li>
+                <li><strong>Export data:</strong> Use device sharing functions to export your entries</li>
+            </ul>
+        </section>
+        
+        <section id="children-privacy">
+            <h2>6. Children's Privacy</h2>
+            <p>The App is designed to be safe for users of all ages. We do not knowingly collect personal information from children under 13 (or the minimum age in your country). Since all data remains on the device, parental supervision of device permissions is recommended.</p>
+        </section>
+        
+        <section id="policy-changes">
+            <h2>7. Changes to This Policy</h2>
+            <p>I may update this Privacy Policy to reflect changes in the App's features. The most current version will always be available within the App's settings and at the link provided in the App Store. Changes will be noted with an updated "Last Updated" date.</p>
+        </section>
+        
+        <section id="contact">
+            <h2>8. Contact</h2>
+            <div class="contact-info">
+                <p>If you have questions about this Privacy Policy or how your information is handled, please contact me at:</p>
+                <p>📧 Email: <a href="mailto:taocheng784@gmail.com" class="email">taocheng784@gmail.com</a></p>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>This policy is effective as of the "Last Updated" date above.</p>
+        <p>© 2026 Dailything. All rights reserved.</p>
+    </footer>
+    
+    <a href="#" class="back-to-top" title="Back to Top">↑</a>
+    
+    <script>
+        // Back to top functionality
+        document.querySelector('.back-to-top').addEventListener('click', function(e) {
+            e.preventDefault();
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+        
+        // Show/hide back to top button
+        window.addEventListener('scroll', function() {
+            const backToTopButton = document.querySelector('.back-to-top');
+            if (window.scrollY > 300) {
+                backToTopButton.style.display = 'flex';
+            } else {
+                backToTopButton.style.display = 'none';
+            }
+        });
+        
+        // Check if back to top button should be visible on load
+        window.addEventListener('load', function() {
+            const backToTopButton = document.querySelector('.back-to-top');
+            backToTopButton.style.display = window.scrollY > 300 ? 'flex' : 'none';
+        });
+        
+        // Print-friendly date display
+        document.addEventListener('DOMContentLoaded', function() {
+            const lastUpdatedElement = document.querySelector('.last-updated');
+            const dateText = lastUpdatedElement.textContent;
+            // You can format date display here if needed
+        });
+    </script>
+</body>
+</html>
